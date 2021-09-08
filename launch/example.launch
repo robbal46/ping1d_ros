@@ -1,0 +1,8 @@
+<launch>
+
+    <node name="ping1d_node" pkg="ping1d_ros" type="ping1d_node.py" output="screen">
+        <param name="serial_port" value="/dev/ttyUSB0"/>
+        <param name="baud_rate" value="115200"/>
+    </node>
+
+</launch>
